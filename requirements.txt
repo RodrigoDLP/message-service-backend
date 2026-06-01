@@ -1,0 +1,8 @@
+fastapi[all]
+pydantic
+pydantic[email]
+psycopg2
+pika
+uvicorn
+python-dotenv
+pytest
