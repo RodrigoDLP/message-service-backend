@@ -6,3 +6,5 @@ pika
 uvicorn
 python-dotenv
 pytest
+pytest-cov
+pytest-mock
