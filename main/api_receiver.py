@@ -37,7 +37,7 @@ def process_transaction(tx: RawTransaction):
 
             if row:
                 points = row[0]
-                if points > 80 and tx.amount >= 100:
+                if points >= 80 and tx.amount >= 100:
                     newpoints = points - 80
                     final_amount = tx.amount-100
                 else:
