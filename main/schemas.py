@@ -6,7 +6,7 @@ class RawTransaction(BaseModel):
     amount: float | None
     creditcard: int | None
     codigo: str | None
-    email: Optional[EmailStr] | None
+    email: Optional[EmailStr] | None = None
     datetime: datetime | None
 
 class Transaction(BaseModel):
